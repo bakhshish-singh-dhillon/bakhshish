@@ -1,0 +1,70 @@
+@import '../scss/index.scss';
+
+.header-curve{
+    position: relative;
+    background-color: $container-bg-color;
+    border-radius: 0 0 $shadow-radius 0;
+    z-index: 1;
+    box-shadow: 0 0 20px -1px $shadow-color;
+    height: 90px;
+
+    &:after {
+        content:"";
+        position: absolute;
+        height:$shadow-radius;
+        width: 300px;
+        background-color: transparent;
+        bottom: -$shadow-radius;
+        left: 0;
+        z-index: -1;
+        border-radius: $shadow-radius 0 0 0;
+        box-shadow: -150px 0 0 0 $container-bg-color;
+    }
+
+    .column{
+        display: flex;
+        justify-content: center;
+        h1{
+            padding:20px 50px;
+        }
+
+        .navMenu{
+            height: inherit;
+            ul{
+                display: flex;
+                justify-content: flex-end;
+                flex-direction: row;
+                list-style: none;
+                align-items: center;
+                height: inherit;
+                margin-right: 50px;
+                li{   
+                    height: inherit;
+                    align-items: center;
+                    display: flex;
+                    margin:0 1rem 0 0;
+                    a{
+                        padding: 25px 0 20px 0;
+                        width: 80px;
+                        position: relative;
+                        text-decoration: none;
+                        color: $text-color;
+                        font-size: 1.3em;
+                        text-align: center;
+                        transform: all;
+                        transition-duration: 500ms;
+                        border-radius: 0 0 25px 25px;
+                        &:hover {
+                            background-color: $body-background;
+                            box-shadow: 0 0 10px 0 $shadow-color;
+                        }
+                        &:active {
+                            background-color: $body-background;
+                            box-shadow: 0 0 10px 0 $shadow-color;
+                        }
+                    }
+                }
+            }
+        }     
+    }
+}

@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Titillium Fonts';
+  font-style: normal;
+  font-display: optional;
+  font-weight: 400;
+  src: url('../fonts/titillium-web-v10-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/titillium-web-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/titillium-web-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/titillium-web-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/titillium-web-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/titillium-web-v10-latin-regular.svg#TitilliumWeb') format('svg'); /* Legacy iOS */
+}
+$container-bg-color: #e5e5e5;
+$body-background : #f8bf27;
+$text-color:black;
+$text-hover-color:white;
+$shadow-radius : 80px;
+$shadow-color:black;
+$block-size:120px;
+html *{
+   color: $text-color;
+   font-family: 'Titillium Fonts', Fallback, sans-serif !important;
+}
+.container{
+  margin: 0 13%;
+}
+body{
+  margin: -21px 0 0 0;
+  background-color: $body-background;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  .column{
+    flex-grow: 1;    
+  }
+}
