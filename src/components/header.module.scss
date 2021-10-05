@@ -68,3 +68,14 @@
         }     
     }
 }
+                 
+.hide-last {
+    @media (max-width: 1370px) { 
+       display: none;
+    }
+}                 
+.hide-middle {
+    @media (max-width: 1230px) { 
+       display: none;
+    }
+}

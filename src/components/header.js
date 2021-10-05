@@ -10,7 +10,7 @@ const Header = () => {
         <div className={headerCss.row}>
           <div className={headerCss.column}>
             <h1>
-              Bakhshish Singh Dhillon
+              Bakhshish <span className={headerCss.hideMiddle}> Singh</span> <span className={headerCss.hideLast}>Dhillon</span>
             </h1>
           </div>
           <div className={headerCss.column}>
