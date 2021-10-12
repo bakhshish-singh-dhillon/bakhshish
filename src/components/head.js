@@ -17,7 +17,7 @@ const Head = ({ title }) => {
                 <meta name="twitter:title" content="Bakhshish Singh Dhillon | Backend Web Developer" />
                 <meta name="twitter:description" content="Bakhshish Singh Dhillon Web Developer"/>
                 <meta name="twitter:image" content={profilePic}/>
-                {/* <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" /> */}
+                {/* <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />  */}
             </Helmet>
     )
 }
