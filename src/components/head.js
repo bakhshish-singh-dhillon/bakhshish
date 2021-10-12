@@ -12,7 +12,7 @@ const Head = ({ title }) => {
                 <meta name="keyword" content="Bakhshish Singh Dhillon, portfolio, javascript, web developer, programmer, php, embedded systems, smart watch, react, laravel" />
                 <meta property="og:title" content="Bakhshish Singh Dhillon | Backend Web Developer"/>
                 <meta property="og:description" content="Bakhshish Singh Dhillon Web Developer" />
-                <meta property="og:image" content={profilePic}/>
+                <meta property="og:image" content={`https://www.bakhshishsingh.com${profilePic}`}/>
                 <meta property="og:url" content="https://www.bakhshishsingh.com" />
                 <meta property="og:type" content="website" />
                 <meta name="twitter:card" content="summary_large_image" />
