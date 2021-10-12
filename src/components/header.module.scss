@@ -51,7 +51,7 @@
                         color: $text-color;
                         font-size: 1.3em;
                         text-align: center;
-                        transform: all;
+                        //transform: inherit;
                         transition-duration: 500ms;
                         border-radius: 0 0 25px 25px;
                         &:hover {

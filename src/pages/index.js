@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCheck } from '@fortawesome/free-solid-svg-icons'
 import Layout from '../components/layout'
 import * as  homeCss from '../scss/index.module.scss'
-import profilePic from '../img/Bakhshish Singh Dhillon.png'
+import profilePic from '../img/Bakhshish-Singh-Dhillon.png'
 import tempConst from '../img/under-construction.png'
 import Head from '../components/head'
 

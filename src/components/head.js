@@ -1,10 +1,11 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import profilePic from '../img/Bakhshish Singh Dhillon.png'
+import profilePic from '../img/Bakhshish-Singh-Dhillon.png'
 
 const Head = ({ title }) => {
     return (
-            <Helmet> 
+            <Helmet>
+                <html lang="en" />
                 <title>{`${title} | Bakhshish's Portfolio`} </title>
                 <meta name="description" content="Bakhshish Singh Dhillon Web Developer" />
                 <meta name="keyword" content="Bakhshish Singh Dhillon, portfolio, javascript, web developer, programmer, php, embedded systems, smart watch, react, laravel" />
