@@ -6,6 +6,9 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    url: "https://www.bakhshishsingh.com", // No trailing slash allowed!
+  },
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-plugin-fontawesome-css',

@@ -1,6 +1,7 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
+import React from 'react'
+import { Helmet } from 'react-helmet'
 import profilePic from '../img/Bakhshish-Singh-Dhillon.png'
+import twitterPic from '../img/Bakhshish-Singh-Dhillon-t.png'
 
 const Head = ({ title }) => {
     return (
@@ -17,7 +18,8 @@ const Head = ({ title }) => {
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Bakhshish Singh Dhillon | Backend Web Developer" />
                 <meta name="twitter:description" content="Bakhshish Singh Dhillon Web Developer"/>
-                <meta name="twitter:image" content={profilePic}/>
+                {/* <meta name="twitter:image" content={`https://www.bakhshishsingh.com${twitterPic}`}/> */}
+                <meta name="twitter:image" content={`https://www.bakhshishsingh.com${profilePic}`}/>
                 {/* <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />  */}
             </Helmet>
     )
