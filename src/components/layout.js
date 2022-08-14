@@ -8,14 +8,12 @@ const Layout = (props) => {
     return (
         <div>
             <div>
-                <Header />
+            <Header />
                 {props.children}
-                <Footer />
+            <Footer />
             </div>
         </div>
     )
 }
-
-
 
 export default Layout
