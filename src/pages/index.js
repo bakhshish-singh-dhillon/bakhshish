@@ -6,6 +6,8 @@ import Layout from '../components/layout'
 // import * as  homeCss from '../scss/index.module.scss'
 import profilePic from '../img/Bakhshish-Singh-Dhillon.png'
 import tempConst from '../img/under-construction.png'
+import ludo from '../img/ludo.png'
+import android_game from '../img/android-game.png'
 import Head from '../components/head'
 
 const IndexPage = () => {
@@ -186,18 +188,15 @@ const IndexPage = () => {
           <div class="portfolios">
             <div class="portfolio-item">
               <div class="image">
-                <img src="img/port1.jpg" alt="" />
+              <iframe height="300" src="https://www.youtube.com/embed/D3jBXd7pgw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               <div class="hover-items">
-                <h3>Project Source</h3>
+                <h3>Smart Watch IOT</h3>
                 <div class="icons">
-                  <a href="#" class="icon">
+                  <a href="https://github.com/bakhshish-singh-dhillon/smart_watch_ESP_arduino" class="icon">
                     <i class="fab fa-github"></i>
                   </a>
-                  <a href="#" class="icon">
-                    <i class="fab fa-behance"></i>
-                  </a>
-                  <a href="#" class="icon">
+                  <a href="https://youtu.be/D3jBXd7pgw4" class="icon">
                     <i class="fab fa-youtube"></i>
                   </a>
                 </div>
@@ -205,39 +204,39 @@ const IndexPage = () => {
             </div>
             <div class="portfolio-item">
               <div class="image">
-                <img src="img/port2.jpg" alt="" />
+                <img src={ludo} alt="" />
               </div>
               <div class="hover-items">
                 <h3>Project Source</h3>
                 <div class="icons">
-                  <a href="#" class="icon">
+                  <a href="https://github.com/bakhshish-singh-dhillon/game_ludo_java" class="icon">
                     <i class="fab fa-github"></i>
                   </a>
-                  <a href="#" class="icon">
+                  {/* <a href="#" class="icon">
                     <i class="fab fa-behance"></i>
                   </a>
                   <a href="#" class="icon">
                     <i class="fab fa-youtube"></i>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
             <div class="portfolio-item">
               <div class="image">
-                <img src="img/port3.jpg" alt="" />
+                <img src={android_game} alt="" />
               </div>
               <div class="hover-items">
-                <h3>Project Source</h3>
+                <h3>Andord Game - Hit the baloon</h3>
                 <div class="icons">
-                  <a href="#" class="icon">
+                  <a href="https://github.com/bakhshish-singh-dhillon/android_game_hit_the_balloon" class="icon">
                     <i class="fab fa-github"></i>
                   </a>
-                  <a href="#" class="icon">
+                  {/* <a href="#" class="icon">
                     <i class="fab fa-behance"></i>
                   </a>
                   <a href="#" class="icon">
                     <i class="fab fa-youtube"></i>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
