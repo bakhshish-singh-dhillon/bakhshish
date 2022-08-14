@@ -1,4 +1,8 @@
 // @import "../../node_modules/bootstrap/scss/bootstrap";
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+@import "../styles/styles.scss";
+@import "../styles/_media.scss";
 @font-face {
   font-family: 'Titillium Fonts';
   font-style: normal;
@@ -19,21 +23,21 @@ $text-hover-color:white;
 $shadow-radius : 80px;
 $shadow-color:black;
 $block-size:120px;
-html *{
-   color: $text-color;
-   font-family: 'Titillium Fonts', Fallback, sans-serif !important;
-}
-.container{
-  margin: 0 13%;
-}
-body{
-  margin: -21px 0 0 0;
-  background-color: $body-background;
-}
-.row{
-  display: flex;
-  flex-direction: row;
-  .column{
-    flex-grow: 1;    
-  }
-}
+// html *{
+//    color: $text-color;
+//    font-family: 'Titillium Fonts', Fallback, sans-serif !important;
+// }
+// .container{
+//   margin: 0 13%;
+// }
+// body{
+//   margin: -21px 0 0 0;
+//   background-color: $body-background;
+// }
+// .row{
+//   display: flex;
+//   flex-direction: row;
+//   .column{
+//     flex-grow: 1;    
+//   }
+// }
