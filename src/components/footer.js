@@ -33,12 +33,12 @@ const Footer = () => {
         <div class="control" data-id="portfolio">
           <i class="fas fa-briefcase"></i>
         </div>
-        <div class="control" data-id="blogs">
+        {/* <div class="control" data-id="blogs">
           <i class="far fa-newspaper"></i>
         </div>
         <div class="control" data-id="contact">
           <i class="fas fa-envelope-open"></i>
-        </div>
+        </div> */}
       </div>
       <div class="theme-btn">
         <i class="fas fa-adjust"></i>

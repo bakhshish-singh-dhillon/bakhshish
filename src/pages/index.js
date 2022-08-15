@@ -207,7 +207,7 @@ const IndexPage = () => {
                 <img src={ludo} alt="" />
               </div>
               <div class="hover-items">
-                <h3>Project Source</h3>
+                <h3>Ludo board game</h3>
                 <div class="icons">
                   <a href="https://github.com/bakhshish-singh-dhillon/game_ludo_java" class="icon">
                     <i class="fab fa-github"></i>
@@ -243,7 +243,7 @@ const IndexPage = () => {
             
           </div>
         </section>
-        <section class="container" id="blogs">
+        {/* <section class="container" id="blogs">
           <div class="blogs-content">
             <div class="main-title">
               <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
@@ -323,8 +323,8 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-        </section>
-        <section class="container contact" id="contact">
+        </section> */}
+        {/* <section class="container contact" id="contact">
           <div class="contact-container">
             <div class="main-title">
               <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
@@ -422,7 +422,7 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
 
 
