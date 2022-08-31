@@ -21,7 +21,7 @@ const Header = () => {
                     
                 </h1>
                 <p>
-                    I'm a Web Developer, I love to create beautiful and functional websites with Laravel, WordPress, PHP, and Vue. I have worked with a wide array of technologies including C, C++, Java, Arduinos, Microcontroller programming, Android Application development, C graphics, and Embedded C
+                    I'm a Web Developer, I love to create beautiful and functional websites with <strong>Laravel, WordPress, PHP, and Vue</strong>. I have worked with a wide array of technologies including C, C++, Java, Arduinos, Microcontroller programming, Android Application development, C graphics, and Embedded C
                 </p>
                 <div class="btn-con">
                     <a href="https://www.linkedin.com/in/bakhshish-singh-dhillon/" class="main-btn">
