@@ -8,6 +8,10 @@ import profilePic from '../img/Bakhshish-Singh-Dhillon.png'
 import tempConst from '../img/under-construction.png'
 import ludo from '../img/ludo.png'
 import android_game from '../img/android-game.png'
+import farm_fresh from '../img/farm-fresh.png'
+import mountains from '../img/mountains-php.png'
+import wordpress from '../img/pets-wordpress.png'
+import sunny_php from '../img/sunny-php.png'
 import Head from '../components/head'
 
 const IndexPage = () => {
@@ -188,7 +192,83 @@ const IndexPage = () => {
           <div class="portfolios">
             <div class="portfolio-item">
               <div class="image">
-              <iframe height="300" src="https://www.youtube.com/embed/D3jBXd7pgw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <img src={farm_fresh} alt="" />
+              </div>
+              <div class="hover-items">
+                <h3>Farm Fresh - Laravel</h3>
+                <div class="icons">
+                  <a href="https://github.com/bakhshish-singh-dhillon/team1" class="icon">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  {/* <a href="#" class="icon">
+                    <i class="fab fa-behance"></i>
+                  </a>
+                  <a href="#" class="icon">
+                    <i class="fab fa-youtube"></i>
+                  </a> */}
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <div class="image">
+                <img src={mountains} alt="" />
+              </div>
+              <div class="hover-items">
+                <h3>Mountains - Laravel</h3>
+                <div class="icons">
+                  <a href="https://bitbucket.org/bakhshish/php_mvc/src/master/project" class="icon">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  {/* <a href="#" class="icon">
+                    <i class="fab fa-behance"></i>
+                  </a>
+                  <a href="#" class="icon">
+                    <i class="fab fa-youtube"></i>
+                  </a> */}
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <div class="image">
+                <img src={wordpress} alt="" />
+              </div>
+              <div class="hover-items">
+                <h3>Pets - Wordpress</h3>
+                <div class="icons">
+                  <a href="https://bitbucket.org/bakhshish/wordpress/src/master/wp5/" class="icon">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  {/* <a href="#" class="icon">
+                    <i class="fab fa-behance"></i>
+                  </a>
+                  <a href="#" class="icon">
+                    <i class="fab fa-youtube"></i>
+                  </a> */}
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <div class="image">
+                <img src={sunny_php} alt="" />
+              </div>
+              <div class="hover-items">
+                <h3>Sunny - PHP</h3>
+                <div class="icons">
+                  <a href="https://bitbucket.org/bakhshish/php_capstone/src/master/" class="icon">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  {/* <a href="#" class="icon">
+                    <i class="fab fa-behance"></i>
+                  </a>
+                  <a href="#" class="icon">
+                    <i class="fab fa-youtube"></i>
+                  </a> */}
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <div class="image">
+                <iframe height="300" src="https://www.youtube.com/embed/D3jBXd7pgw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               <div class="hover-items">
                 <h3>Smart Watch IOT</h3>
@@ -207,7 +287,7 @@ const IndexPage = () => {
                 <img src={ludo} alt="" />
               </div>
               <div class="hover-items">
-                <h3>Ludo board game</h3>
+                <h3>Ludo board game - JAVA</h3>
                 <div class="icons">
                   <a href="https://github.com/bakhshish-singh-dhillon/game_ludo_java" class="icon">
                     <i class="fab fa-github"></i>
@@ -240,7 +320,7 @@ const IndexPage = () => {
                 </div>
               </div>
             </div>
-            
+
           </div>
         </section>
         {/* <section class="container" id="blogs">
